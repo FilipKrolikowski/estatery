@@ -1,0 +1,9 @@
+@reference './globals.css';
+
+.primary {
+  @apply bg-primary-violet text-white hover:bg-[#8B8AFF] border-2 focus:border-[#3118D6] focus-within:bg-[#3D1EFE] disabled:bg-[#B5B8CB];
+}
+
+.secondary {
+  @apply border-2 border-[#D6D8E5] hover:border-primary-violet focus:border-primary-violet focus:text-primary-violet focus-within:border-[#2511AE] focus-within:text-[#2511AE] disabled:border-[#D6D8E5] disabled:text-[#717788];
+}

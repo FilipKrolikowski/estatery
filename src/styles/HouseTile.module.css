@@ -1,0 +1,7 @@
+@reference './globals.css';
+
+.houseTileTriangle {
+  width: 8px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
